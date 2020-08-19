@@ -24,7 +24,8 @@
 #######################################################
 #The above technique kills the purpose of classes.So we will use the normal method
 #here we will use the init method which is like a constructor of Java
-#When we create methods within a class they receive the instance as the first argument automatically. By convention we call the instance self. We can call it by any name
+#When we create methods within a class they receive the instance as the first argument automatically. 
+#By convention we call the instance self. We can call it by any name
 #After self we can specify what other arguments that we want
 class Employee:
     def __init__(self, first, last, pay):
