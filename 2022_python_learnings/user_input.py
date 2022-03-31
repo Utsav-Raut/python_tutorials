@@ -19,10 +19,3 @@ print()
 print("a"*5)
 
 # ##################################################
-
-# Taking multiple values as input
-args = input('Enter the values\n').split()
-print(args)
-
-new_args = input('Enter another set of values\n').strip().split()
-print(new_args)
